@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale-1.0">
+	<meta http-equiv="X-UA-Compatible" content="le=edge">
+<title>Нова игра - X-SNAKE</title>
+	<link href="https://fonts.googleapis.com/css?family=Orbitron|Ubuntu&effect=neon" rel="stylesheet">
+	<link rel="stylesheet" href="assets/styles/css/style.css">
+</head>
+<body>
+<!-- Section1 -->
+<section>
+	<a href="index.html">
+	<div class="girl1">
+	</div>
+	</a>
+</section>
+<!-- /Section1 -->
+<!-- Section2 -->
+<section class="landing_page">
+	<h2>НОВА ИГРА</h2>
+	<div>
+		<a href="games/x-snake/game-options.html"><img class="img" src="assets/images/select-snake.png" alt="snake"></a>
+	</div>
+	<div class="descr">
+		<p style="text-align: center"><b style="color: yellow">ИЗБЕРИ СИ<br>ЗМИЯ</b></p><br><br>
+		<form>
+		<input type="radio" name="snake" value="cobra" checked> COBRA<br><br>
+		<p style="background-color: pink;">розова змия</p><br>
+		<input type="radio" name="snake" value="viper"> VIPER<br><br>
+		<p style="background-color: lightblue;">синя змия</p><br>
+		<input type="radio" name="snake" value="anaconda"> ANACONDA<br><br>
+		<p style="background-color: lightgreen;">зелена змия</p><br>
+		</form>
+		<a href="games/x-snake/game-options.html" style="text-align: center"><button>ПУСНИ ИГРАТА</button></a>
+	</div>
+	<div class="promo">
+		<div class="logo">
+			<a href="index.html"><img src="assets/images/x-books.png" alt="logo"></a>
+		</div>
+		<a href="index.html"><img class="img" src="assets/images/girl2.jpg" alt="girl"></a>
+		<a href="games/snake.html">ИГРАЙ</a>
+<br>
+		<a href="index.html">ВЛЕЗ В САЙТА</a>
+<br>
+		<a href="igri.html">РАЗГЛЕДАЙ ВСИЧКИ ИГРИ</a>
+	</div>
+</section>
+<!-- /Section2 -->
+<!-- Section3 -->
+<section>
+	<a href="index.html">
+	<div class="girl3">
+	</div>
+	</a>
+</section>
+<!-- /Section3 -->
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+	background-color: black;
+	color: white;
+}
+a {
+	text-decoration: none;
+	transition: 0.5s;
+}
+a:hover {
+	color: #b700b7;
+}
+a:active {
+	color: red;
+}
+a:focus {
+	color: yellow;
+}
+h1, h2 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+form {
+	display: block;
+}
+select {
+	background-color: rgb(55,55,55);
+	color: rgb(300,300,300);
+}
+audio {
+	background-color: rgb(55,55,55);
+	color: rgb(300,300,300);
+}
+button {
+	background-color: rgb(55,55,55);
+	color: rgb(300,300,300);
+}
+#buttons {
+	text-align: center;
+}
+#gameCanvas {
+	color: grey;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#right {
+	float: right;
+	text-align: center;
+}
+#left {
+	float: left;
+	text-align: center;
+}
+#bottom {
+	margin-top: 375px;
+	text-align: center;
+}
+main {
+	font-size: 30px;
+	font-family: 'Antic Slab', serif;
+}

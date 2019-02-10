@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale-1.0, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="X-UA-Compatible" content="le=edge">
+<title>X-Snake Game Single Player</title>
+	<link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="assets/styles/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<a style="position: absolute;" href="../../igri.php">
+	<img src="../../assets/images/x-books.png" alt="x-books site">
+</a>
+<div style="position: absolute; margin-left: 730px;">
+	<audio controls autoplay>
+		<source src="assets/music/Tetris-Remix-Compilation.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+<br><br>
+	<button type="button" onclick="location.href='game-options.html'">Back to Game Options</button>
+</div>
+<div style="text-align: center;">
+	<h1 style="font-size: 30px;">X-SNAKE</h1><span>(Single Player mode)</span>
+</div>
+<form>
+	<label>Choose your snake</label>
+	<select id="snake" size="1sb">
+		<option value="pink" title="Pink Snake">Cobra</option>
+		<option value="lightblue" title="Blue Snake">Viper</option>
+		<option value="lightgreen" title="Green Snake">Anaconda</option>
+	</select>
+	<label>Game speed</label>
+	<select id="speed" size="1sb">
+		<option value="150">Very Slow</option>
+		<option value="125">Slow</option>
+		<option value="100">Normal</option>
+		<option value="75">Fast</option>
+		<option value="50">Very Fast</option>
+	</select>
+<label>To start a new game press F5</label>
+</form>
+<main>
+<div id="right">
+	<p>Your top scores and time</p>
+	<ol style="font-size: 24px;">
+		<li><span id="rscore">00</span> <label id="rminutes">00</label>:<label id="rseconds">00</label></li>
+		<li><span id="rscore">00</span> <label id="rminutes">00</label>:<label id="rseconds">00</label></li>
+		<li><span id="rscore">00</span> <label id="rminutes">00</label>:<label id="rseconds">00</label></li>
+		<li><span id="rscore">00</span> <label id="rminutes">00</label>:<label id="rseconds">00</label></li>
+		<li><span id="rscore">00</span> <label id="rminutes">00</label>:<label id="rseconds">00</label></li>
+	</ol>
+	<p id="st"></p>
+	<button type="button" id="show">Refresh top scores</button>
+</div>
+<div id="left">
+	<p>-------SCORES-------</p>
+	<div id="score">00</div>
+	<p>TIME</p>
+	<label id="minutes">00</label>:<label id="seconds">00</label>
+	<br>
+	<button type="button" id="save">Save scores and time</button>
+</div>
+<div>
+	<canvas id="gameCanvas" width="300" height="300"></canvas>
+</div>
+</main>
+<script type="text/javascript" src="assets/scripts/single-player.js"></script>
+</body>
+</html>

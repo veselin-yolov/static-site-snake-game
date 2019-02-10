@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale-1.0, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="X-UA-Compatible" content="le=edge">
+<title>X-Snake Game Options</title>
+	<link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="assets/styles/css/style.css">
+	<style type="text/css">
+		#buttons {
+			margin-top: 30px;
+		}
+	</style>
+</head>
+<body>
+<main>
+<h1>X-SNAKE</h1>
+<h2>Choose game type</h2>
+<div id="buttons">
+	<a href="single-player.html" title="By clicking on this picture you will start a new single player game.">
+		<img src="assets/images/snake-singleplayer.jpg" alt="singleplayer" />
+	</a>
+	<a href="multi-player.html" title="By clicking on this picture you will start a new multi player game.">
+		<img src="assets/images/snake-multiplayer.jpg" alt="multiplayer" />
+	</a>
+<div style="margin-top: 5px;">
+	<button type="button" onclick="location.href='single-player.html'" title="By clicking on this button you will start a new single player game.">Single Player</button>
+	<button style="margin-left: 50px; margin-right: 50px;" type="button" onclick="location.href='game-tips.html'">Game Tips</button>
+	<button type="button" onclick="location.href='multi-player.html'" title="By clicking on this button you will start a new multi player game.">Multi Player</button>
+</div>
+<br>
+	<a href="../../igri.php">
+		<h3>Go back to the site</h3>
+		<img src="../../assets/images/x-books.png" alt="logo" />
+	</a>
+</div>
+</main>
+</body>
+</html>

@@ -1,0 +1,10 @@
+body {
+	background-color: black;
+	background-image: url(../../images/Snake-Tips.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center center;
+}
+button {
+	margin-left: 450px;
+}

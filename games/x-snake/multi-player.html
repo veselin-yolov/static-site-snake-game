@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale-1.0, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="X-UA-Compatible" content="le=edge">
+<title>X-Snake Game Multi Player</title>
+	<link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="assets/styles/css/style.css">
+</head>
+<body>
+<a style="position: absolute;" href="../../igri.php">
+	<img src="../../assets/images/x-books.png" alt="x-books site">
+</a>
+<div style="position: absolute; margin-left: 730px;">
+	<audio controls autoplay>
+		<source src="assets/music/Tetris-Remix-Compilation.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+<br><br>
+	<button type="button" onclick="location.href='game-options.html'">Back to Game Options</button>
+</div>
+<div style="text-align: center">
+	<h1 style="font-size: 30px;">X-SNAKE</h1><span>(Multi Player mode)</span>
+</div>
+<form>
+	<label>Player 1</label>
+	<select id="snake" size="1sb">
+		<option value="pink" title="Pink Snake">Cobra</option>
+	</select>
+	<label>Player 2</label>
+	<select id="snake2" size="1sb">
+		<option value="lightblue" title="Blue Snake">Viper</option>
+	</select>
+	<label>Game speed</label>
+	<select id="speed" size="1sb">
+		<option value="150">Very Slow</option>
+		<option value="125">Slow</option>
+		<option value="100">Normal</option>
+		<option value="75">Fast</option>
+		<option value="50">Very Fast</option>
+	</select>
+<label>To start a new game press F5</label>
+</form>
+<main>
+<div id="right" style="margin-top: 80px;">
+	<p>PLAYER 2 SCORES</p>
+	<div id="score2">00</div>
+</div>
+<div id="left" style="margin-top: 80px;">
+	<p>PLAYER 1 SCORES</p>
+	<div id="score">00</div>
+</div>
+<div>
+	<canvas id="gameCanvas" width="300" height="300"></canvas>
+</div>
+</main>
+<script type="text/javascript" src="assets/scripts/multi-player.js"></script>
+</body>
+</html>

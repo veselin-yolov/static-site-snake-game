@@ -1,0 +1,18 @@
+// Падащи менюта при малка резолюция
+$(document).ready(function(){
+	$("a#menu1").click(function () {
+		$("ul#sub1").show();
+		$("ul#sub2").hide();
+	});
+	$("a#menu2").click(function () {
+		$("ul#sub2").show();
+		$("ul#sub1").hide();
+	});
+
+	// Бутон за смяна на езика
+	$("button#lang").click(function () {
+		$(this, "span").fadeOut(function () {
+			$(this, "span").text(($(this, "span").text() == 'EN') ? 'BG' : 'EN').fadeIn();
+		});
+	});
+});
